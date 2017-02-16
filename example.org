@@ -1,0 +1,15 @@
+#+TITLE: Title of my talk
+#+AUTHOR: Author
+#+OPTIONS: H:2 toc:t num:t
+#+latex_compiler: xelatex
+#+startup: beamer
+#+LATEX_CLASS: beamer
+#+LATEX_CLASS_OPTIONS: [presentation]
+#+BEAMER_THEME: intridea
+#+COLUMNS: %45ITEM %10BEAMER_ENV(Env) %10BEAMER_ACT(Act) %4BEAMER_COL(Col) %8BEAMER_OPT(Opt)
+
+* Slide 1
+
+** Slide 1
+   A science committed to a sustainable future
+
