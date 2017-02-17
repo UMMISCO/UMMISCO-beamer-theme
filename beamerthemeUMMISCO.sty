@@ -21,8 +21,16 @@
 \setbeamerfont{copyright in head/foot}{size=\Tiny}
 \setbeamerfont{framenumber in head/foot}{size=\Tiny}
 
-\setbeamertemplate{background canvas}{\includegraphics
-	[width=\paperwidth,height=\paperheight]{backgroundUMMISCO.png}}
+\setbeamertemplate{background canvas}{
+  \ifnum\thepage=1\relax%
+\includegraphics
+	    [width=\paperwidth,height=\paperheight]{backgroundUMMISCO.png}
+  \fi
+	\ifnum\thepage>1\relax%
+  \includegraphics
+	    [width=\paperwidth,height=\paperheight]{background.png}
+      \fi
+}
 \setbeamertemplate{frametitle}[default][center]
 \setbeamertemplate{navigation symbols}{} %no nav symbols
 
